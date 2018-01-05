@@ -10,8 +10,8 @@ import { Component } from '@angular/core';
       <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
     </nav>
     <router-outlet></router-outlet>
-  `,
-  styleUrls: ['./app.component.css'],
+  `,/* router-outlet */
+  styleUrls: ['./app.component.css'],/* 指定该模板使用的样式表 */
 })
 export class AppComponent {
   title = 'Tour of Heroes';

@@ -4,7 +4,7 @@
     <label>id: </label>{{hero.id}}</div>
   <div>
     <label>name: </label>
-    <input [(ngModel)]="hero.name" placeholder="name" />
+    <input [(ngModel)]="hero.name" placeholder="name" /> <!-- 用[(ngModel)]双向绑定 从属性到输入框[]，并且从输入框回到属性()。需要引入FormsModule-->
   </div>
   <button (click)="goBack()">Back</button>
 </div>
