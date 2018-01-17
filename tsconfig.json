@@ -1,4 +1,4 @@
-/* https://www.w3cschool.cn/typescript/typescript-compiler-options.html  */
+/* 详细解释可以参考 https://www.w3cschool.cn/typescript/typescript-compiler-options.html  */
 {
   "compileOnSave": true,/* 可以被忽略，这时编译器会使用默认值。 */
   "compilerOptions": {/* 在最顶层设置compileOnSave标记，可以让IDE在保存文件的时候根据tsconfig.json重新生成文件。 */

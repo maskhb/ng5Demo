@@ -6,7 +6,7 @@
     <span class="badge">{{hero.id}}</span> {{hero.name}}
   </li>
 </ul>
-<div *ngIf="selectedHero">
+<div *ngIf="selectedHero"><!-- 别忘了ngIf前的星号 (*)。 -->
   <h2>
     {{selectedHero.name | uppercase}} is my hero
   </h2>
